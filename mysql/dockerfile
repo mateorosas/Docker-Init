@@ -1,0 +1,10 @@
+FROM  m4t30r0s4as/despliegue_cli_mysql:v1
+
+ARG mysql_elastic
+ENV MYSQL_ROOT_PASSWORD=admin
+ENV MYSQL_USER=elastic_db
+ENV MYSQL_PASSWORD=admin123
+
+EXPOSE 3306:3306
+
+VOLUME [ "mysql-elastic_data:/var/lib/mysql" ]
