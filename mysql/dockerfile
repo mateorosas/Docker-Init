@@ -1,4 +1,4 @@
-FROM  m4t30r0s4as/despliegue_cli_mysql:v1
+FROM  m4t30r0s4as/mysql_elastic:despliegue_dockerfile_mysql_v1
 
 ARG NAME=mysql_elastic
 ENV MYSQL_ROOT_PASSWORD=admin
