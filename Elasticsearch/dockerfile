@@ -1,4 +1,4 @@
-FROM m4t30r0s4as/kibana:despliegue_dockerfile_kibana_v1
+FROM m4t30r0s4as/elasticsearch:despliegue_dockerfile_elasticsearch_v1
 
 ARG NAME=elasticsearch
 
