@@ -2,8 +2,9 @@ FROM  m4t30r0s4as/mysql_elastic:despliegue_dockerfile_mysql_v1
 
 ARG NAME=mysql_elastic
 ENV MYSQL_ROOT_PASSWORD=admin
-ENV MYSQL_USER=elastic_db
+ENV MYSQL_USER=elastic_user
 ENV MYSQL_PASSWORD=admin123
+ENV MYSQL_DATABASE=elastic_db
 
 EXPOSE 3306:3306
 
